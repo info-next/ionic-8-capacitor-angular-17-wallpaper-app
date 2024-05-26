@@ -1,0 +1,44 @@
+ion-header{
+  ion-toolbar{
+    --background-color: #f5f5f5;
+    --border-width: 0 !important;
+
+    ion-title{
+        -webkit-padding-start: 10px; 
+     padding-inline-start: 10px;
+     text-align: left;
+     }
+  }
+
+}
+
+ion-content {
+    --background: #f5f5f5;
+  }
+
+  ion-searchbar {
+    --width: 100%;
+  }
+  
+  .category-chips {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    white-space: nowrap;
+  }
+  
+  .category-chips ion-chip {
+    margin: 0 5px;
+    flex: 0 0 auto;
+  }
+  
+  ion-card {
+    margin: 5px;
+  }
+  
+  ion-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

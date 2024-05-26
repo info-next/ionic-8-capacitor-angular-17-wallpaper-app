@@ -1,0 +1,37 @@
+ion-content {
+    --background: transparent;
+  }
+  
+  .welcome-container {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url('/assets/images/kd-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    .content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+      }
+
+      .start-button {
+        --background: #ff5722 !important; /* Orange background */
+        --border-radius: 20px;
+        color: white;             /* White text color */
+        border-radius: 20px !important;      /* Rounded corners */
+      }
+  }
+  
+ 
+  
+ 

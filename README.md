@@ -1,4 +1,6 @@
-# Android, Ios Photo Wallpaper App 
+# Android, Ios Text to Speech + Gallery App 
+
+## Ionic-8, Angular-17
 
 This is a cross-platform mobile application built using Angular 17, Ionic 8, and Capacitor. The app allows users to browse, download, and set high-quality wallpapers on their Android and iOS devices.
 

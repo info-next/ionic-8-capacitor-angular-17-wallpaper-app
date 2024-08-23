@@ -1,0 +1,21 @@
+
+
+<ion-content>
+  <ion-searchbar  placeholder="Search for photos"></ion-searchbar>
+
+  <div class="category-chips">
+    <ion-chip *ngFor="let category of categories">
+      <ion-label>{{ category }}</ion-label>
+    </ion-chip>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let photo of photos">
+        <ion-card>
+          <img [src]="photo.imgUrl" (click)="downloadPhoto(photo.imgUrl)">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

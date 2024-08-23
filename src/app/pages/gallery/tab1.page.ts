@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle,IonChip, IonContent,IonSearchbar,IonRow,
   IonCard,IonGrid,IonCol,IonLabel,IonMenuButton, IonMenu,IonButtons} from '@ionic/angular/standalone';
-import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,8 +8,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss'],
   standalone: true,
-  imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent,IonRow,IonCard,IonGrid,IonRow,IonCol,IonLabel,
-    ExploreContainerComponent,IonSearchbar,IonChip,IonMenuButton, IonMenu,IonButtons],
+  imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent,IonRow,IonCard,IonGrid,IonRow,IonCol,IonLabel,IonSearchbar,IonChip,IonMenuButton, IonMenu,IonButtons],
 })
 export class Tab1Page {
   searchQuery: string = '';

@@ -1,0 +1,14 @@
+<ion-content class="ion-padding">
+
+  <!-- Text area for input -->
+  <ion-item>
+    <ion-label position="stacked">Enter Text to Speak</ion-label>
+    <ion-textarea [(ngModel)]="textToSpeak" rows="6" name="textToSpeak" class="custom-textarea"
+     placeholder="Type something..."></ion-textarea>
+  </ion-item>
+
+  <!-- Speak button -->
+  <ion-button expand="block" (click)="speakText()">Speak</ion-button>
+  <ion-button expand="block" (click)="speak()">Speak2</ion-button>
+
+</ion-content>

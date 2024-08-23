@@ -1,0 +1,15 @@
+.custom-textarea {
+    min-height: 150px;  /* Set a minimum height */
+    height: 200px;      /* Set a fixed height if needed */
+    max-height: 300px;  /* Optionally, set a maximum height */
+    
+    /* Add border properties */
+    border: 2px solid #3880ff;  /* Blue border */
+    border-radius: 8px;         /* Rounded corners */
+    padding: 10px;              /* Add some padding inside */
+    box-sizing: border-box;     /* Ensure padding doesn't affect total width/height */
+    
+    /* Optional: Custom styles for better appearance */
+    background-color: #f9f9f9;  /* Light gray background */
+    outline: none;              /* Remove default focus outline */
+  }

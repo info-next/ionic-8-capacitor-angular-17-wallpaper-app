@@ -1,0 +1,21 @@
+<ion-content>
+  <!-- Two-column layout using Ionic Grid System -->
+  <ion-grid>
+    <ion-row>
+      @for (item of apps(); track $index) {
+        <ion-col size="6">
+          <ion-card button (click)="navigateTo(item.route)">
+            <ion-card-header>
+              <ion-card-title>{{item.title}}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              {{item.description}}
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      }
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

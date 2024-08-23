@@ -16,7 +16,7 @@ export class WelcomeComponent {
  navCtrl = inject(NavController);
 
   goToHome() {
-    this.navCtrl.navigateRoot('/tabs/tab1');
+    this.navCtrl.navigateRoot('/app');
   }
 
 }

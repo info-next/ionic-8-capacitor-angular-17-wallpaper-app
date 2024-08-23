@@ -1,0 +1,13 @@
+ion-header{
+    ion-toolbar{
+      --background-color: #f5f5f5;
+      --border-width: 0 !important;
+  
+      ion-title{
+          -webkit-padding-start: 10px; 
+       padding-inline-start: 10px;
+       text-align: left;
+       }
+    }
+  
+  }

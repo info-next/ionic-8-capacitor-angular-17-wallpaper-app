@@ -15,7 +15,6 @@ export class TextToSpeechComponent {
   constructor() { }
   async speak() {
     if (this.textToSpeak.trim().length === 0) {
-      alert('Please enter some text to speak.');
       const utterance = new SpeechSynthesisUtterance('Please enter some text to speak');
       speechSynthesis.speak(utterance);
       return;
@@ -36,7 +35,6 @@ export class TextToSpeechComponent {
 
    speakText() {
     if (this.textToSpeak.trim().length === 0) {
-      alert('Please enter some text to speak.');
       const utterance = new SpeechSynthesisUtterance('Please enter some text to speak');
       speechSynthesis.speak(utterance);
       return;
